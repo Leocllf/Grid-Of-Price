@@ -1,0 +1,149 @@
+body{
+    background-color: #f0eeef;
+}
+.limite{
+    margin-left:auto;
+    margin-right: auto;
+    width: 600px;
+    height: 500px;
+    background-color: rgba(0, 0, 255, 0);
+}
+.bloco1{
+    border-radius:10px 10px 0px 0px ;
+    margin: 0;
+    padding: 0;
+    width: 600px;
+    height: 250px;
+    background-color: #fdfcfe;
+}
+.b1{
+    padding: 30px;
+}
+h2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #4bbfba;
+}
+.bloco1 h5{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #c8e451;
+
+}
+.txt1{
+    color: #b8b8b8;
+}
+.bloco2{
+    border-radius: 0px 0px 0px 10px;
+    display: inline-block;
+    width: 300px;
+    height: 250px;
+    background-color:#2cb3b1 ;
+    color: #fdfcfe;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.b2{
+    padding: 30px;
+    padding-top: 15px;
+}
+.bloco2 h4{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.preco p{
+    display: inline;
+}
+.big{
+    font-size: 35px;
+}
+.min{
+    color: #fdfcfeb6;
+}
+.min2{
+    font-size: 14px;
+}
+input{
+    background-color:#c8e451 ;
+    border: none;
+    border-radius: 5px;
+    width: 240px;
+    height: 50px;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+.bloco3{
+    border-radius: 0px 0px 10px 0px;
+    float: right;
+    width: 300px;
+    height: 250px;
+    background-color:#4bbdbf ;
+}
+.b3{
+    padding: 30px;
+    padding-top: 15px;
+}
+
+h4{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    padding-left:20px;
+}
+ul{
+    list-style-type: none;
+    padding-left: 20px;
+    color: #fdfcfeb6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+li{
+    margin-bottom: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    /*for desktop*/
+
+    .limite{
+        width: 250px;
+    }
+    .bloco1{
+        width: 250px;
+        height: 350px;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+    .bloco2{
+        border-radius: 5px;
+        width: 250px;
+        height: 350px;
+        margin-bottom: 10px;
+    }
+    .bloco2 h4{
+        font-size: 25px;
+        text-align:left;
+        padding:0 ;
+    }
+
+    input{
+        margin-left: auto;
+        margin-right: auto;
+        width: 190px;
+        margin-top: 10;        
+    }
+
+    .bloco3{
+        border-radius: 5px;
+        width: 250px;
+        height: 350px;
+        margin-bottom: 20px;
+    }
+    .bloco3 h4{
+        font-size: 25px;
+    }
+    .bloco3 h4 ul{
+        padding: 0px;
+    }
+    
+}
